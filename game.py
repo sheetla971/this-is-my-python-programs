@@ -14,7 +14,7 @@ def game():
                     print('wow! you are right and you go to the  next level')
                     e = str(input('who is the prime minister of india:'))
                     if e == 'modi':
-                        print('wow !you make the right choice.and you win the gold.')
+                        return print('wow !you make the right choice.and you win the gold.')
                     else:
                         return output
                 else:
@@ -25,8 +25,6 @@ def game():
             return output
     else:
         return output
-    return output
-
 
 print(game())
 
